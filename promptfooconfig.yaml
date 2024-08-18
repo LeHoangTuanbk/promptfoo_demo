@@ -1,37 +1,27 @@
 # Learn more about building a configuration: https://promptfoo.dev/docs/configuration/guide
-description: "My eval"
+description: "Dual translation of Japanese to English and Vietnamese"
 
 prompts:
-  - "Write a tweet about {{topic}}"
-  - "Write a concise, funny tweet about {{topic}}"
-  
+  - "prompts/translator.txt"
 
 providers:
-  - "openai:gpt-4o-mini"
-  - "openai:gpt-4o"
-  
+  - "openai:chat:gpt-4o-mini"
+  - "openai:chat:gpt-4o"
+  - "anthropic:messages:claude-3-haiku-20240307"
+  - "anthropic:messages:claude-3-sonnet-20240229"
+  - "anthropic:messages:claude-3-opus-20240229"
+  - "anthropic:messages:claude-3-5-sonnet-20240620"
 
 tests:
   - vars:
-      topic: bananas
-
-  - vars:
-      topic: avocado toast
+      targeted_language: "English"
+      japanese_sentence: "こんにちは"
     assert:
-      # For more information on assertions, see https://promptfoo.dev/docs/configuration/expected-outputs
-
-      # Make sure output contains the word "avocado"
-      - type: icontains
-        value: avocado
-
-      # Prefer shorter outputs
-      - type: javascript
-        value: 1 / (output.length + 1)
-
+      - type: equals
+        value: "Hello"
   - vars:
-      topic: new york city
+      targeted_language: "Vietnamese"
+      japanese_sentence: "こんにちは"
     assert:
-      # For more information on model-graded evals, see https://promptfoo.dev/docs/configuration/expected-outputs/model-graded
-      - type: llm-rubric
-        value: ensure that the output is funny
-
+      - type: equals
+        value: "Xin chào"
