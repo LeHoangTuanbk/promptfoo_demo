@@ -1,0 +1,83 @@
+japanese_sentence,targeted_language,"[openai:gpt-4o-mini] prompts/translator.txt: You're a translator from Japanese to {{targeted_language}}. You're given a Japanese sentence and you're tasked with translating it to {{targeted_language}}.
+
+Japanese sentence: {{japanese_sentence}}
+
+{{targeted_language}} sentence:","[openai:gpt-4o] prompts/translator.txt: You're a translator from Japanese to {{targeted_language}}. You're given a Japanese sentence and you're tasked with translating it to {{targeted_language}}.
+
+Japanese sentence: {{japanese_sentence}}
+
+{{targeted_language}} sentence:","[anthropic:messages:claude-3-haiku-20240307] prompts/translator.txt: You're a translator from Japanese to {{targeted_language}}. You're given a Japanese sentence and you're tasked with translating it to {{targeted_language}}.
+
+Japanese sentence: {{japanese_sentence}}
+
+{{targeted_language}} sentence:","[anthropic:messages:claude-3-sonnet-20240229] prompts/translator.txt: You're a translator from Japanese to {{targeted_language}}. You're given a Japanese sentence and you're tasked with translating it to {{targeted_language}}.
+
+Japanese sentence: {{japanese_sentence}}
+
+{{targeted_language}} sentence:","[anthropic:messages:claude-3-opus-20240229] prompts/translator.txt: You're a translator from Japanese to {{targeted_language}}. You're given a Japanese sentence and you're tasked with translating it to {{targeted_language}}.
+
+Japanese sentence: {{japanese_sentence}}
+
+{{targeted_language}} sentence:","[anthropic:messages:claude-3-5-sonnet-20240620] prompts/translator.txt: You're a translator from Japanese to {{targeted_language}}. You're given a Japanese sentence and you're tasked with translating it to {{targeted_language}}.
+
+Japanese sentence: {{japanese_sentence}}
+
+{{targeted_language}} sentence:"
+こんにちは,English,"[PASS] (1.00)
+
+Hello
+
+Pass Reason: No assertions","[PASS] (1.00)
+
+Hello
+
+Pass Reason: No assertions","[PASS] (1.00)
+
+The English translation of the Japanese sentence ""こんにちは"" is:
+
+""Hello""
+
+Pass Reason: No assertions","[PASS] (1.00)
+
+The English translation of the Japanese sentence ""こんにちは"" is:
+
+Hello.
+
+Pass Reason: No assertions","[PASS] (1.00)
+
+English sentence: Hello
+
+Pass Reason: No assertions","[PASS] (1.00)
+
+English sentence: Hello
+
+This is a simple and common Japanese greeting that translates directly to ""Hello"" in English. It's used during the daytime, typically from late morning to early evening.
+
+Pass Reason: No assertions"
+こんにちは,Vietnamese,"[PASS] (1.00)
+
+Xin chào
+
+Pass Reason: No assertions","[PASS] (1.00)
+
+Xin chào
+
+Pass Reason: No assertions","[PASS] (1.00)
+
+Xin chào.
+
+Pass Reason: No assertions","[PASS] (1.00)
+
+Câu tiếng Việt tương ứng với ""こんにちは"" trong tiếng Nhật là:
+
+Xin chào.
+
+Pass Reason: No assertions","[PASS] (1.00)
+
+Xin chào
+
+Pass Reason: No assertions","[PASS] (1.00)
+
+Xin chào
+
+Pass Reason: No assertions"

@@ -1,0 +1,1027 @@
+{
+  "evalId": "eval-2024-08-18T10:12:56",
+  "results": {
+    "version": 2,
+    "timestamp": "2024-08-18T10:12:56.143Z",
+    "results": [
+      {
+        "provider": {
+          "id": "openai:gpt-4o"
+        },
+        "prompt": {
+          "raw": "You're a translator from Japanese to English. You're given a Japanese sentence and you're tasked with translating it to English.\n\nJapanese sentence: こんにちは\n\nEnglish sentence:",
+          "label": "prompts/translator.txt: You're a translator from Japanese to {{targeted_language}}. You're given a Japanese sentence and you're tasked with translating it to {{targeted_language}}.\n\nJapanese sentence: {{japanese_sentence}}\n\n{{targeted_language}} sentence:"
+        },
+        "vars": {
+          "targeted_language": "English",
+          "japanese_sentence": "こんにちは"
+        },
+        "response": {
+          "output": "Hello.",
+          "tokenUsage": {
+            "total": 40,
+            "prompt": 38,
+            "completion": 2
+          },
+          "cached": false,
+          "cost": 0.00022
+        },
+        "success": true,
+        "score": 1,
+        "namedScores": {},
+        "latencyMs": 596,
+        "cost": 0.00022,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0
+          },
+          "assertion": null
+        }
+      },
+      {
+        "provider": {
+          "id": "anthropic:messages:claude-3-haiku-20240307"
+        },
+        "prompt": {
+          "raw": "You're a translator from Japanese to English. You're given a Japanese sentence and you're tasked with translating it to English.\n\nJapanese sentence: こんにちは\n\nEnglish sentence:",
+          "label": "prompts/translator.txt: You're a translator from Japanese to {{targeted_language}}. You're given a Japanese sentence and you're tasked with translating it to {{targeted_language}}.\n\nJapanese sentence: {{japanese_sentence}}\n\n{{targeted_language}} sentence:"
+        },
+        "vars": {
+          "targeted_language": "English",
+          "japanese_sentence": "こんにちは"
+        },
+        "response": {
+          "output": "The English translation of the Japanese sentence \"こんにちは\" is:\n\n\"Hello\"",
+          "tokenUsage": {
+            "total": 71,
+            "prompt": 47,
+            "completion": 24
+          },
+          "cost": 0.000041750000000000005
+        },
+        "success": true,
+        "score": 1,
+        "namedScores": {},
+        "latencyMs": 680,
+        "cost": 0.000041750000000000005,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0
+          },
+          "assertion": null
+        }
+      },
+      {
+        "provider": {
+          "id": "openai:gpt-4o-mini"
+        },
+        "prompt": {
+          "raw": "You're a translator from Japanese to English. You're given a Japanese sentence and you're tasked with translating it to English.\n\nJapanese sentence: こんにちは\n\nEnglish sentence:",
+          "label": "prompts/translator.txt: You're a translator from Japanese to {{targeted_language}}. You're given a Japanese sentence and you're tasked with translating it to {{targeted_language}}.\n\nJapanese sentence: {{japanese_sentence}}\n\n{{targeted_language}} sentence:"
+        },
+        "vars": {
+          "targeted_language": "English",
+          "japanese_sentence": "こんにちは"
+        },
+        "response": {
+          "output": "Hello",
+          "tokenUsage": {
+            "total": 39,
+            "prompt": 38,
+            "completion": 1
+          },
+          "cached": false,
+          "cost": 0.0000063
+        },
+        "success": true,
+        "score": 1,
+        "namedScores": {},
+        "latencyMs": 703,
+        "cost": 0.0000063,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0
+          },
+          "assertion": null
+        }
+      },
+      {
+        "provider": {
+          "id": "anthropic:messages:claude-3-sonnet-20240229"
+        },
+        "prompt": {
+          "raw": "You're a translator from Japanese to English. You're given a Japanese sentence and you're tasked with translating it to English.\n\nJapanese sentence: こんにちは\n\nEnglish sentence:",
+          "label": "prompts/translator.txt: You're a translator from Japanese to {{targeted_language}}. You're given a Japanese sentence and you're tasked with translating it to {{targeted_language}}.\n\nJapanese sentence: {{japanese_sentence}}\n\n{{targeted_language}} sentence:"
+        },
+        "vars": {
+          "targeted_language": "English",
+          "japanese_sentence": "こんにちは"
+        },
+        "response": {
+          "output": "The English translation of the Japanese sentence \"こんにちは\" is:\n\nHello.",
+          "tokenUsage": {
+            "total": 69,
+            "prompt": 47,
+            "completion": 22
+          },
+          "cost": 0.000471
+        },
+        "success": true,
+        "score": 1,
+        "namedScores": {},
+        "latencyMs": 902,
+        "cost": 0.000471,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0
+          },
+          "assertion": null
+        }
+      },
+      {
+        "provider": {
+          "id": "openai:gpt-4o-mini"
+        },
+        "prompt": {
+          "raw": "You're a translator from Japanese to Vietnamese. You're given a Japanese sentence and you're tasked with translating it to Vietnamese.\n\nJapanese sentence: こんにちは\n\nVietnamese sentence:",
+          "label": "prompts/translator.txt: You're a translator from Japanese to {{targeted_language}}. You're given a Japanese sentence and you're tasked with translating it to {{targeted_language}}.\n\nJapanese sentence: {{japanese_sentence}}\n\n{{targeted_language}} sentence:"
+        },
+        "vars": {
+          "targeted_language": "Vietnamese",
+          "japanese_sentence": "こんにちは"
+        },
+        "response": {
+          "output": "Xin chào",
+          "tokenUsage": {
+            "total": 42,
+            "prompt": 39,
+            "completion": 3
+          },
+          "cached": false,
+          "cost": 0.00000765
+        },
+        "success": true,
+        "score": 1,
+        "namedScores": {},
+        "latencyMs": 412,
+        "cost": 0.00000765,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0
+          },
+          "assertion": null
+        }
+      },
+      {
+        "provider": {
+          "id": "openai:gpt-4o"
+        },
+        "prompt": {
+          "raw": "You're a translator from Japanese to Vietnamese. You're given a Japanese sentence and you're tasked with translating it to Vietnamese.\n\nJapanese sentence: こんにちは\n\nVietnamese sentence:",
+          "label": "prompts/translator.txt: You're a translator from Japanese to {{targeted_language}}. You're given a Japanese sentence and you're tasked with translating it to {{targeted_language}}.\n\nJapanese sentence: {{japanese_sentence}}\n\n{{targeted_language}} sentence:"
+        },
+        "vars": {
+          "targeted_language": "Vietnamese",
+          "japanese_sentence": "こんにちは"
+        },
+        "response": {
+          "output": "Xin chào",
+          "tokenUsage": {
+            "total": 42,
+            "prompt": 39,
+            "completion": 3
+          },
+          "cached": false,
+          "cost": 0.00024000000000000003
+        },
+        "success": true,
+        "score": 1,
+        "namedScores": {},
+        "latencyMs": 519,
+        "cost": 0.00024000000000000003,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0
+          },
+          "assertion": null
+        }
+      },
+      {
+        "provider": {
+          "id": "anthropic:messages:claude-3-opus-20240229"
+        },
+        "prompt": {
+          "raw": "You're a translator from Japanese to English. You're given a Japanese sentence and you're tasked with translating it to English.\n\nJapanese sentence: こんにちは\n\nEnglish sentence:",
+          "label": "prompts/translator.txt: You're a translator from Japanese to {{targeted_language}}. You're given a Japanese sentence and you're tasked with translating it to {{targeted_language}}.\n\nJapanese sentence: {{japanese_sentence}}\n\n{{targeted_language}} sentence:"
+        },
+        "vars": {
+          "targeted_language": "English",
+          "japanese_sentence": "こんにちは"
+        },
+        "response": {
+          "output": "English sentence: Hello",
+          "tokenUsage": {
+            "total": 54,
+            "prompt": 47,
+            "completion": 7
+          },
+          "cost": 0.0012299999999999998
+        },
+        "success": true,
+        "score": 1,
+        "namedScores": {},
+        "latencyMs": 923,
+        "cost": 0.0012299999999999998,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0
+          },
+          "assertion": null
+        }
+      },
+      {
+        "provider": {
+          "id": "anthropic:messages:claude-3-haiku-20240307"
+        },
+        "prompt": {
+          "raw": "You're a translator from Japanese to Vietnamese. You're given a Japanese sentence and you're tasked with translating it to Vietnamese.\n\nJapanese sentence: こんにちは\n\nVietnamese sentence:",
+          "label": "prompts/translator.txt: You're a translator from Japanese to {{targeted_language}}. You're given a Japanese sentence and you're tasked with translating it to {{targeted_language}}.\n\nJapanese sentence: {{japanese_sentence}}\n\n{{targeted_language}} sentence:"
+        },
+        "vars": {
+          "targeted_language": "Vietnamese",
+          "japanese_sentence": "こんにちは"
+        },
+        "response": {
+          "output": "Xin chào.",
+          "tokenUsage": {
+            "total": 56,
+            "prompt": 47,
+            "completion": 9
+          },
+          "cost": 0.000023
+        },
+        "success": true,
+        "score": 1,
+        "namedScores": {},
+        "latencyMs": 530,
+        "cost": 0.000023,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0
+          },
+          "assertion": null
+        }
+      },
+      {
+        "provider": {
+          "id": "anthropic:messages:claude-3-opus-20240229"
+        },
+        "prompt": {
+          "raw": "You're a translator from Japanese to Vietnamese. You're given a Japanese sentence and you're tasked with translating it to Vietnamese.\n\nJapanese sentence: こんにちは\n\nVietnamese sentence:",
+          "label": "prompts/translator.txt: You're a translator from Japanese to {{targeted_language}}. You're given a Japanese sentence and you're tasked with translating it to {{targeted_language}}.\n\nJapanese sentence: {{japanese_sentence}}\n\n{{targeted_language}} sentence:"
+        },
+        "vars": {
+          "targeted_language": "Vietnamese",
+          "japanese_sentence": "こんにちは"
+        },
+        "response": {
+          "output": "Xin chào",
+          "tokenUsage": {
+            "total": 55,
+            "prompt": 47,
+            "completion": 8
+          },
+          "cost": 0.0013049999999999997
+        },
+        "success": true,
+        "score": 1,
+        "namedScores": {},
+        "latencyMs": 736,
+        "cost": 0.0013049999999999997,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0
+          },
+          "assertion": null
+        }
+      },
+      {
+        "provider": {
+          "id": "anthropic:messages:claude-3-5-sonnet-20240620"
+        },
+        "prompt": {
+          "raw": "You're a translator from Japanese to Vietnamese. You're given a Japanese sentence and you're tasked with translating it to Vietnamese.\n\nJapanese sentence: こんにちは\n\nVietnamese sentence:",
+          "label": "prompts/translator.txt: You're a translator from Japanese to {{targeted_language}}. You're given a Japanese sentence and you're tasked with translating it to {{targeted_language}}.\n\nJapanese sentence: {{japanese_sentence}}\n\n{{targeted_language}} sentence:"
+        },
+        "vars": {
+          "targeted_language": "Vietnamese",
+          "japanese_sentence": "こんにちは"
+        },
+        "response": {
+          "output": "Xin chào",
+          "tokenUsage": {
+            "total": 55,
+            "prompt": 47,
+            "completion": 8
+          },
+          "cost": 0.000261
+        },
+        "success": true,
+        "score": 1,
+        "namedScores": {},
+        "latencyMs": 630,
+        "cost": 0.000261,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0
+          },
+          "assertion": null
+        }
+      },
+      {
+        "provider": {
+          "id": "anthropic:messages:claude-3-5-sonnet-20240620"
+        },
+        "prompt": {
+          "raw": "You're a translator from Japanese to English. You're given a Japanese sentence and you're tasked with translating it to English.\n\nJapanese sentence: こんにちは\n\nEnglish sentence:",
+          "label": "prompts/translator.txt: You're a translator from Japanese to {{targeted_language}}. You're given a Japanese sentence and you're tasked with translating it to {{targeted_language}}.\n\nJapanese sentence: {{japanese_sentence}}\n\n{{targeted_language}} sentence:"
+        },
+        "vars": {
+          "targeted_language": "English",
+          "japanese_sentence": "こんにちは"
+        },
+        "response": {
+          "output": "English sentence: Hello\n\nThis is a simple and common Japanese greeting that translates directly to \"Hello\" in English. It's used during the daytime, typically from late morning to early evening.",
+          "tokenUsage": {
+            "total": 90,
+            "prompt": 47,
+            "completion": 43
+          },
+          "cost": 0.000786
+        },
+        "success": true,
+        "score": 1,
+        "namedScores": {},
+        "latencyMs": 1634,
+        "cost": 0.000786,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0
+          },
+          "assertion": null
+        }
+      },
+      {
+        "provider": {
+          "id": "anthropic:messages:claude-3-sonnet-20240229"
+        },
+        "prompt": {
+          "raw": "You're a translator from Japanese to Vietnamese. You're given a Japanese sentence and you're tasked with translating it to Vietnamese.\n\nJapanese sentence: こんにちは\n\nVietnamese sentence:",
+          "label": "prompts/translator.txt: You're a translator from Japanese to {{targeted_language}}. You're given a Japanese sentence and you're tasked with translating it to {{targeted_language}}.\n\nJapanese sentence: {{japanese_sentence}}\n\n{{targeted_language}} sentence:"
+        },
+        "vars": {
+          "targeted_language": "Vietnamese",
+          "japanese_sentence": "こんにちは"
+        },
+        "response": {
+          "output": "Câu tiếng Việt tương ứng với \"こんにちは\" trong tiếng Nhật là:\n\nXin chào.",
+          "tokenUsage": {
+            "total": 88,
+            "prompt": 47,
+            "completion": 41
+          },
+          "cost": 0.0007559999999999999
+        },
+        "success": true,
+        "score": 1,
+        "namedScores": {},
+        "latencyMs": 1148,
+        "cost": 0.0007559999999999999,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0
+          },
+          "assertion": null
+        }
+      }
+    ],
+    "stats": {
+      "successes": 12,
+      "failures": 0,
+      "tokenUsage": {
+        "total": 701,
+        "prompt": 530,
+        "completion": 171,
+        "cached": 0
+      }
+    },
+    "table": {
+      "head": {
+        "prompts": [
+          {
+            "raw": "You're a translator from Japanese to {{targeted_language}}. You're given a Japanese sentence and you're tasked with translating it to {{targeted_language}}.\n\nJapanese sentence: {{japanese_sentence}}\n\n{{targeted_language}} sentence:",
+            "label": "prompts/translator.txt: You're a translator from Japanese to {{targeted_language}}. You're given a Japanese sentence and you're tasked with translating it to {{targeted_language}}.\n\nJapanese sentence: {{japanese_sentence}}\n\n{{targeted_language}} sentence:",
+            "id": "022bfb1aba341283c57be1ec65803c337a75091d40be1f0204111ee9daa4a06f",
+            "provider": "openai:gpt-4o-mini",
+            "metrics": {
+              "score": 2,
+              "testPassCount": 2,
+              "testFailCount": 0,
+              "assertPassCount": 0,
+              "assertFailCount": 0,
+              "totalLatencyMs": 1115,
+              "tokenUsage": {
+                "total": 81,
+                "prompt": 77,
+                "completion": 4,
+                "cached": 0
+              },
+              "namedScores": {},
+              "cost": 0.00001395
+            }
+          },
+          {
+            "raw": "You're a translator from Japanese to {{targeted_language}}. You're given a Japanese sentence and you're tasked with translating it to {{targeted_language}}.\n\nJapanese sentence: {{japanese_sentence}}\n\n{{targeted_language}} sentence:",
+            "label": "prompts/translator.txt: You're a translator from Japanese to {{targeted_language}}. You're given a Japanese sentence and you're tasked with translating it to {{targeted_language}}.\n\nJapanese sentence: {{japanese_sentence}}\n\n{{targeted_language}} sentence:",
+            "id": "022bfb1aba341283c57be1ec65803c337a75091d40be1f0204111ee9daa4a06f",
+            "provider": "openai:gpt-4o",
+            "metrics": {
+              "score": 2,
+              "testPassCount": 2,
+              "testFailCount": 0,
+              "assertPassCount": 0,
+              "assertFailCount": 0,
+              "totalLatencyMs": 1115,
+              "tokenUsage": {
+                "total": 82,
+                "prompt": 77,
+                "completion": 5,
+                "cached": 0
+              },
+              "namedScores": {},
+              "cost": 0.00046
+            }
+          },
+          {
+            "raw": "You're a translator from Japanese to {{targeted_language}}. You're given a Japanese sentence and you're tasked with translating it to {{targeted_language}}.\n\nJapanese sentence: {{japanese_sentence}}\n\n{{targeted_language}} sentence:",
+            "label": "prompts/translator.txt: You're a translator from Japanese to {{targeted_language}}. You're given a Japanese sentence and you're tasked with translating it to {{targeted_language}}.\n\nJapanese sentence: {{japanese_sentence}}\n\n{{targeted_language}} sentence:",
+            "id": "022bfb1aba341283c57be1ec65803c337a75091d40be1f0204111ee9daa4a06f",
+            "provider": "anthropic:messages:claude-3-haiku-20240307",
+            "metrics": {
+              "score": 2,
+              "testPassCount": 2,
+              "testFailCount": 0,
+              "assertPassCount": 0,
+              "assertFailCount": 0,
+              "totalLatencyMs": 1210,
+              "tokenUsage": {
+                "total": 127,
+                "prompt": 94,
+                "completion": 33,
+                "cached": 0
+              },
+              "namedScores": {},
+              "cost": 0.00006475
+            }
+          },
+          {
+            "raw": "You're a translator from Japanese to {{targeted_language}}. You're given a Japanese sentence and you're tasked with translating it to {{targeted_language}}.\n\nJapanese sentence: {{japanese_sentence}}\n\n{{targeted_language}} sentence:",
+            "label": "prompts/translator.txt: You're a translator from Japanese to {{targeted_language}}. You're given a Japanese sentence and you're tasked with translating it to {{targeted_language}}.\n\nJapanese sentence: {{japanese_sentence}}\n\n{{targeted_language}} sentence:",
+            "id": "022bfb1aba341283c57be1ec65803c337a75091d40be1f0204111ee9daa4a06f",
+            "provider": "anthropic:messages:claude-3-sonnet-20240229",
+            "metrics": {
+              "score": 2,
+              "testPassCount": 2,
+              "testFailCount": 0,
+              "assertPassCount": 0,
+              "assertFailCount": 0,
+              "totalLatencyMs": 2050,
+              "tokenUsage": {
+                "total": 157,
+                "prompt": 94,
+                "completion": 63,
+                "cached": 0
+              },
+              "namedScores": {},
+              "cost": 0.001227
+            }
+          },
+          {
+            "raw": "You're a translator from Japanese to {{targeted_language}}. You're given a Japanese sentence and you're tasked with translating it to {{targeted_language}}.\n\nJapanese sentence: {{japanese_sentence}}\n\n{{targeted_language}} sentence:",
+            "label": "prompts/translator.txt: You're a translator from Japanese to {{targeted_language}}. You're given a Japanese sentence and you're tasked with translating it to {{targeted_language}}.\n\nJapanese sentence: {{japanese_sentence}}\n\n{{targeted_language}} sentence:",
+            "id": "022bfb1aba341283c57be1ec65803c337a75091d40be1f0204111ee9daa4a06f",
+            "provider": "anthropic:messages:claude-3-opus-20240229",
+            "metrics": {
+              "score": 2,
+              "testPassCount": 2,
+              "testFailCount": 0,
+              "assertPassCount": 0,
+              "assertFailCount": 0,
+              "totalLatencyMs": 1659,
+              "tokenUsage": {
+                "total": 109,
+                "prompt": 94,
+                "completion": 15,
+                "cached": 0
+              },
+              "namedScores": {},
+              "cost": 0.0025349999999999995
+            }
+          },
+          {
+            "raw": "You're a translator from Japanese to {{targeted_language}}. You're given a Japanese sentence and you're tasked with translating it to {{targeted_language}}.\n\nJapanese sentence: {{japanese_sentence}}\n\n{{targeted_language}} sentence:",
+            "label": "prompts/translator.txt: You're a translator from Japanese to {{targeted_language}}. You're given a Japanese sentence and you're tasked with translating it to {{targeted_language}}.\n\nJapanese sentence: {{japanese_sentence}}\n\n{{targeted_language}} sentence:",
+            "id": "022bfb1aba341283c57be1ec65803c337a75091d40be1f0204111ee9daa4a06f",
+            "provider": "anthropic:messages:claude-3-5-sonnet-20240620",
+            "metrics": {
+              "score": 2,
+              "testPassCount": 2,
+              "testFailCount": 0,
+              "assertPassCount": 0,
+              "assertFailCount": 0,
+              "totalLatencyMs": 2264,
+              "tokenUsage": {
+                "total": 145,
+                "prompt": 94,
+                "completion": 51,
+                "cached": 0
+              },
+              "namedScores": {},
+              "cost": 0.001047
+            }
+          }
+        ],
+        "vars": [
+          "japanese_sentence",
+          "targeted_language"
+        ]
+      },
+      "body": [
+        {
+          "outputs": [
+            {
+              "pass": true,
+              "score": 1,
+              "namedScores": {},
+              "text": "Hello",
+              "prompt": "You're a translator from Japanese to English. You're given a Japanese sentence and you're tasked with translating it to English.\n\nJapanese sentence: こんにちは\n\nEnglish sentence:",
+              "provider": "openai:gpt-4o-mini",
+              "latencyMs": 703,
+              "tokenUsage": {
+                "total": 39,
+                "prompt": 38,
+                "completion": 1
+              },
+              "gradingResult": {
+                "pass": true,
+                "score": 1,
+                "reason": "No assertions",
+                "tokensUsed": {
+                  "total": 0,
+                  "prompt": 0,
+                  "completion": 0,
+                  "cached": 0
+                },
+                "assertion": null
+              },
+              "cost": 0.0000063
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "namedScores": {},
+              "text": "Hello.",
+              "prompt": "You're a translator from Japanese to English. You're given a Japanese sentence and you're tasked with translating it to English.\n\nJapanese sentence: こんにちは\n\nEnglish sentence:",
+              "provider": "openai:gpt-4o",
+              "latencyMs": 596,
+              "tokenUsage": {
+                "total": 40,
+                "prompt": 38,
+                "completion": 2
+              },
+              "gradingResult": {
+                "pass": true,
+                "score": 1,
+                "reason": "No assertions",
+                "tokensUsed": {
+                  "total": 0,
+                  "prompt": 0,
+                  "completion": 0,
+                  "cached": 0
+                },
+                "assertion": null
+              },
+              "cost": 0.00022
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "namedScores": {},
+              "text": "The English translation of the Japanese sentence \"こんにちは\" is:\n\n\"Hello\"",
+              "prompt": "You're a translator from Japanese to English. You're given a Japanese sentence and you're tasked with translating it to English.\n\nJapanese sentence: こんにちは\n\nEnglish sentence:",
+              "provider": "anthropic:messages:claude-3-haiku-20240307",
+              "latencyMs": 680,
+              "tokenUsage": {
+                "total": 71,
+                "prompt": 47,
+                "completion": 24
+              },
+              "gradingResult": {
+                "pass": true,
+                "score": 1,
+                "reason": "No assertions",
+                "tokensUsed": {
+                  "total": 0,
+                  "prompt": 0,
+                  "completion": 0,
+                  "cached": 0
+                },
+                "assertion": null
+              },
+              "cost": 0.000041750000000000005
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "namedScores": {},
+              "text": "The English translation of the Japanese sentence \"こんにちは\" is:\n\nHello.",
+              "prompt": "You're a translator from Japanese to English. You're given a Japanese sentence and you're tasked with translating it to English.\n\nJapanese sentence: こんにちは\n\nEnglish sentence:",
+              "provider": "anthropic:messages:claude-3-sonnet-20240229",
+              "latencyMs": 902,
+              "tokenUsage": {
+                "total": 69,
+                "prompt": 47,
+                "completion": 22
+              },
+              "gradingResult": {
+                "pass": true,
+                "score": 1,
+                "reason": "No assertions",
+                "tokensUsed": {
+                  "total": 0,
+                  "prompt": 0,
+                  "completion": 0,
+                  "cached": 0
+                },
+                "assertion": null
+              },
+              "cost": 0.000471
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "namedScores": {},
+              "text": "English sentence: Hello",
+              "prompt": "You're a translator from Japanese to English. You're given a Japanese sentence and you're tasked with translating it to English.\n\nJapanese sentence: こんにちは\n\nEnglish sentence:",
+              "provider": "anthropic:messages:claude-3-opus-20240229",
+              "latencyMs": 923,
+              "tokenUsage": {
+                "total": 54,
+                "prompt": 47,
+                "completion": 7
+              },
+              "gradingResult": {
+                "pass": true,
+                "score": 1,
+                "reason": "No assertions",
+                "tokensUsed": {
+                  "total": 0,
+                  "prompt": 0,
+                  "completion": 0,
+                  "cached": 0
+                },
+                "assertion": null
+              },
+              "cost": 0.0012299999999999998
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "namedScores": {},
+              "text": "English sentence: Hello\n\nThis is a simple and common Japanese greeting that translates directly to \"Hello\" in English. It's used during the daytime, typically from late morning to early evening.",
+              "prompt": "You're a translator from Japanese to English. You're given a Japanese sentence and you're tasked with translating it to English.\n\nJapanese sentence: こんにちは\n\nEnglish sentence:",
+              "provider": "anthropic:messages:claude-3-5-sonnet-20240620",
+              "latencyMs": 1634,
+              "tokenUsage": {
+                "total": 90,
+                "prompt": 47,
+                "completion": 43
+              },
+              "gradingResult": {
+                "pass": true,
+                "score": 1,
+                "reason": "No assertions",
+                "tokensUsed": {
+                  "total": 0,
+                  "prompt": 0,
+                  "completion": 0,
+                  "cached": 0
+                },
+                "assertion": null
+              },
+              "cost": 0.000786
+            }
+          ],
+          "test": {
+            "vars": {
+              "targeted_language": "English",
+              "japanese_sentence": "こんにちは"
+            },
+            "assert": [],
+            "options": {},
+            "metadata": {}
+          },
+          "vars": [
+            "こんにちは",
+            "English"
+          ]
+        },
+        {
+          "outputs": [
+            {
+              "pass": true,
+              "score": 1,
+              "namedScores": {},
+              "text": "Xin chào",
+              "prompt": "You're a translator from Japanese to Vietnamese. You're given a Japanese sentence and you're tasked with translating it to Vietnamese.\n\nJapanese sentence: こんにちは\n\nVietnamese sentence:",
+              "provider": "openai:gpt-4o-mini",
+              "latencyMs": 412,
+              "tokenUsage": {
+                "total": 42,
+                "prompt": 39,
+                "completion": 3
+              },
+              "gradingResult": {
+                "pass": true,
+                "score": 1,
+                "reason": "No assertions",
+                "tokensUsed": {
+                  "total": 0,
+                  "prompt": 0,
+                  "completion": 0,
+                  "cached": 0
+                },
+                "assertion": null
+              },
+              "cost": 0.00000765
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "namedScores": {},
+              "text": "Xin chào",
+              "prompt": "You're a translator from Japanese to Vietnamese. You're given a Japanese sentence and you're tasked with translating it to Vietnamese.\n\nJapanese sentence: こんにちは\n\nVietnamese sentence:",
+              "provider": "openai:gpt-4o",
+              "latencyMs": 519,
+              "tokenUsage": {
+                "total": 42,
+                "prompt": 39,
+                "completion": 3
+              },
+              "gradingResult": {
+                "pass": true,
+                "score": 1,
+                "reason": "No assertions",
+                "tokensUsed": {
+                  "total": 0,
+                  "prompt": 0,
+                  "completion": 0,
+                  "cached": 0
+                },
+                "assertion": null
+              },
+              "cost": 0.00024000000000000003
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "namedScores": {},
+              "text": "Xin chào.",
+              "prompt": "You're a translator from Japanese to Vietnamese. You're given a Japanese sentence and you're tasked with translating it to Vietnamese.\n\nJapanese sentence: こんにちは\n\nVietnamese sentence:",
+              "provider": "anthropic:messages:claude-3-haiku-20240307",
+              "latencyMs": 530,
+              "tokenUsage": {
+                "total": 56,
+                "prompt": 47,
+                "completion": 9
+              },
+              "gradingResult": {
+                "pass": true,
+                "score": 1,
+                "reason": "No assertions",
+                "tokensUsed": {
+                  "total": 0,
+                  "prompt": 0,
+                  "completion": 0,
+                  "cached": 0
+                },
+                "assertion": null
+              },
+              "cost": 0.000023
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "namedScores": {},
+              "text": "Câu tiếng Việt tương ứng với \"こんにちは\" trong tiếng Nhật là:\n\nXin chào.",
+              "prompt": "You're a translator from Japanese to Vietnamese. You're given a Japanese sentence and you're tasked with translating it to Vietnamese.\n\nJapanese sentence: こんにちは\n\nVietnamese sentence:",
+              "provider": "anthropic:messages:claude-3-sonnet-20240229",
+              "latencyMs": 1148,
+              "tokenUsage": {
+                "total": 88,
+                "prompt": 47,
+                "completion": 41
+              },
+              "gradingResult": {
+                "pass": true,
+                "score": 1,
+                "reason": "No assertions",
+                "tokensUsed": {
+                  "total": 0,
+                  "prompt": 0,
+                  "completion": 0,
+                  "cached": 0
+                },
+                "assertion": null
+              },
+              "cost": 0.0007559999999999999
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "namedScores": {},
+              "text": "Xin chào",
+              "prompt": "You're a translator from Japanese to Vietnamese. You're given a Japanese sentence and you're tasked with translating it to Vietnamese.\n\nJapanese sentence: こんにちは\n\nVietnamese sentence:",
+              "provider": "anthropic:messages:claude-3-opus-20240229",
+              "latencyMs": 736,
+              "tokenUsage": {
+                "total": 55,
+                "prompt": 47,
+                "completion": 8
+              },
+              "gradingResult": {
+                "pass": true,
+                "score": 1,
+                "reason": "No assertions",
+                "tokensUsed": {
+                  "total": 0,
+                  "prompt": 0,
+                  "completion": 0,
+                  "cached": 0
+                },
+                "assertion": null
+              },
+              "cost": 0.0013049999999999997
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "namedScores": {},
+              "text": "Xin chào",
+              "prompt": "You're a translator from Japanese to Vietnamese. You're given a Japanese sentence and you're tasked with translating it to Vietnamese.\n\nJapanese sentence: こんにちは\n\nVietnamese sentence:",
+              "provider": "anthropic:messages:claude-3-5-sonnet-20240620",
+              "latencyMs": 630,
+              "tokenUsage": {
+                "total": 55,
+                "prompt": 47,
+                "completion": 8
+              },
+              "gradingResult": {
+                "pass": true,
+                "score": 1,
+                "reason": "No assertions",
+                "tokensUsed": {
+                  "total": 0,
+                  "prompt": 0,
+                  "completion": 0,
+                  "cached": 0
+                },
+                "assertion": null
+              },
+              "cost": 0.000261
+            }
+          ],
+          "test": {
+            "vars": {
+              "targeted_language": "Vietnamese",
+              "japanese_sentence": "こんにちは"
+            },
+            "assert": [],
+            "options": {},
+            "metadata": {}
+          },
+          "vars": [
+            "こんにちは",
+            "Vietnamese"
+          ]
+        }
+      ]
+    }
+  },
+  "config": {
+    "description": "Dual translation of Japanese to English and Vietnamese",
+    "prompts": [
+      "prompts/translator.txt"
+    ],
+    "providers": [
+      "openai:chat:gpt-4o-mini",
+      "openai:chat:gpt-4o",
+      "anthropic:messages:claude-3-haiku-20240307",
+      "anthropic:messages:claude-3-sonnet-20240229",
+      "anthropic:messages:claude-3-opus-20240229",
+      "anthropic:messages:claude-3-5-sonnet-20240620"
+    ],
+    "tests": [
+      {
+        "vars": {
+          "targeted_language": "English",
+          "japanese_sentence": "こんにちは"
+        }
+      },
+      {
+        "vars": {
+          "targeted_language": "Vietnamese",
+          "japanese_sentence": "こんにちは"
+        }
+      }
+    ],
+    "sharing": true,
+    "outputPath": [
+      "results/results.json"
+    ],
+    "extensions": []
+  },
+  "shareableUrl": null
+}

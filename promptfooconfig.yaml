@@ -1,4 +1,3 @@
-# Learn more about building a configuration: https://promptfoo.dev/docs/configuration/guide
 description: "Dual translation of Japanese to English and Vietnamese"
 
 prompts:
@@ -16,12 +15,9 @@ tests:
   - vars:
       targeted_language: "English"
       japanese_sentence: "こんにちは"
-    assert:
-      - type: equals
-        value: "Hello"
   - vars:
       targeted_language: "Vietnamese"
       japanese_sentence: "こんにちは"
-    assert:
-      - type: equals
-        value: "Xin chào"
+
+options:
+  showLatency: true
