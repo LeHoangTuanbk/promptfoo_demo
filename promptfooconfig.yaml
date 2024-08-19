@@ -1,7 +1,9 @@
 description: "Dual translation of Japanese to English and Vietnamese"
 
 prompts:
-  - "prompts/translator.txt"
+  - "prompts/translator1.txt"
+  - "prompts/translator2.txt"
+  # - "prompts/translator3.txt"
 
 providers:
   - "openai:chat:gpt-4o-mini"
@@ -11,13 +13,7 @@ providers:
   - "anthropic:messages:claude-3-opus-20240229"
   - "anthropic:messages:claude-3-5-sonnet-20240620"
 
-tests:
-  - vars:
-      targeted_language: "English"
-      japanese_sentence: "こんにちは"
-  - vars:
-      targeted_language: "Vietnamese"
-      japanese_sentence: "こんにちは"
+tests: "tests/test_cases.csv"
 
 options:
   showLatency: true

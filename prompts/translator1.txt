@@ -1,0 +1,5 @@
+You're a translator from Japanese to {{targeted_language}}. You're given a Japanese paragraph and you're tasked with translating it to {{targeted_language}}.
+
+Japanese paragraph: {{japanese_paragraph}}
+
+{{targeted_language}} paragraph:
