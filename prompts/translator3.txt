@@ -1,5 +1,0 @@
-You're a translator from Japanese to {{targeted_language}}. You're given a Japanese sentence and you're tasked with translating it to {{targeted_language}}.
-
-Japanese sentence: {{japanese_sentence}}
-
-{{targeted_language}} sentence:
