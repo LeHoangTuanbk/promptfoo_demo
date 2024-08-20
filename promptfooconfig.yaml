@@ -13,5 +13,15 @@ providers:
 
 tests: "tests/test_cases.csv"
 
+defaultTest:
+  assert:
+    - type: javascript
+      value: "!output.toLowerCase().includes('the english translation')"
+    - type: javascript
+      value: "!output.toLowerCase().includes('here is my translation')"
+    - type: javascript
+      value: "!output.toLowerCase().includes('bản dịch tiếng việt')"
+    - type: javascript
+      value: "!output.toLowerCase().includes('đây là bản dịch')"
 options:
   showLatency: true
